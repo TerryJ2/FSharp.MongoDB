@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDBTests/FSharp.MongoDBTests.fsproj": {}
+  },
+  "projects": {
+    "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDB.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDB.fsproj",
+        "projectName": "FSharp.MongoDB",
+        "projectPath": "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDB.fsproj",
+        "packagesPath": "/Users/afshawnlotfi/.nuget/packages/",
+        "outputPath": "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/afshawnlotfi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDBTests/FSharp.MongoDBTests.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDBTests/FSharp.MongoDBTests.fsproj",
+        "projectName": "FSharp.MongoDBTests",
+        "projectPath": "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDBTests/FSharp.MongoDBTests.fsproj",
+        "packagesPath": "/Users/afshawnlotfi/.nuget/packages/",
+        "outputPath": "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDBTests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/afshawnlotfi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDB.fsproj": {
+                "projectPath": "/Users/afshawnlotfi/Desktop/FSharp.MongoDB/FSharp.MongoDB.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "FsCheck": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "FsCheck.Nunit": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
